@@ -5,6 +5,8 @@
  */
 package poo.cap4.mensaje;
 
+import javax.swing.*;
+
 /**
  *
  * @author Ismael
@@ -34,6 +36,11 @@ public class GUIMensaje extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         btnLider.setText("Líder");
+        btnLider.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLiderActionPerformed(evt);
+            }
+        });
 
         btnIntegrante1.setText("Integrante 1");
 
@@ -68,6 +75,13 @@ public class GUIMensaje extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnLiderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLiderActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "Hola, mi nombre es Ismael Toaquiza"
+        +"\nMi usuario en git es: IsmaelToaquiza");
+           
+    }//GEN-LAST:event_btnLiderActionPerformed
 
     /**
      * @param args the command line arguments
