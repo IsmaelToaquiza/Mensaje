@@ -34,6 +34,7 @@ public class GUIMensaje extends javax.swing.JFrame {
         btnIntegrante2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Presentación");
 
         btnLider.setText("Líder");
         btnLider.addActionListener(new java.awt.event.ActionListener() {
@@ -43,6 +44,11 @@ public class GUIMensaje extends javax.swing.JFrame {
         });
 
         btnIntegrante1.setText("Integrante 1");
+        btnIntegrante1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnIntegrante1ActionPerformed(evt);
+            }
+        });
 
         btnIntegrante2.setText("Integrante 2");
 
@@ -82,6 +88,13 @@ public class GUIMensaje extends javax.swing.JFrame {
         +"\nMi usuario en git es: IsmaelToaquiza");
            
     }//GEN-LAST:event_btnLiderActionPerformed
+
+    private void btnIntegrante1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIntegrante1ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "Hola"+"\nMi nombre es Gabriela Manobanda"
+        +"\nMi usuario en git es: gabriela-mn", "PRESENTACIÓN", JOptionPane.INFORMATION_MESSAGE);
+        
+    }//GEN-LAST:event_btnIntegrante1ActionPerformed
 
     /**
      * @param args the command line arguments
