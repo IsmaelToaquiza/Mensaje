@@ -51,6 +51,11 @@ public class GUIMensaje extends javax.swing.JFrame {
         });
 
         btnIntegrante2.setText("Integrante 2");
+        btnIntegrante2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnIntegrante2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -91,10 +96,15 @@ public class GUIMensaje extends javax.swing.JFrame {
 
     private void btnIntegrante1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIntegrante1ActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(null, "Hola"+"\nMi nombre es Gabriela Manobanda"
-        +"\nMi usuario en git es: gabriela-mn", "PRESENTACIÓN", JOptionPane.INFORMATION_MESSAGE);
+         JOptionPane.showMessageDialog(null, "Hola"+"\nMi nombre es Gabriela Manobanda"
+        +"\nMi usuario en git es: gabriela-mn", "PRESENTACIÓN", JOptionPane.INFORMATION_MESSAGE); 
+         
         
     }//GEN-LAST:event_btnIntegrante1ActionPerformed
+
+    private void btnIntegrante2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIntegrante2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnIntegrante2ActionPerformed
 
     /**
      * @param args the command line arguments
