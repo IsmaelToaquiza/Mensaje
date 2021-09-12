@@ -94,6 +94,7 @@ public class GUIMensaje extends javax.swing.JFrame {
            
     }//GEN-LAST:event_btnLiderActionPerformed
 
+<<<<<<< HEAD
     private void btnIntegrante1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIntegrante1ActionPerformed
         // TODO add your handling code here:
              JOptionPane.showMessageDialog(null, "Hola"+"\nMi nombre es Gabriela Manobanda"
@@ -102,6 +103,8 @@ public class GUIMensaje extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnIntegrante1ActionPerformed
 
+=======
+>>>>>>> d5d7c592be22a150ccd700e6078d0c440a8c7113
     private void btnIntegrante2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIntegrante2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnIntegrante2ActionPerformed
